@@ -1,1 +1,21 @@
-/* You can add global styles to this file, and also import other style files */
+@import url('./assets/styles/fonts.scss');
+
+:root{
+--primary: #111111;
+--gray: #757575;
+--white: #FFFFFF;
+
+
+--basefontFamily: Avenir, Helvetica, sans-serif;
+--subtitle: 800 1.75rem/2.39rem var(--basefontFamily);
+--bodyRoman: 400 1rem/1.5rem var(--basefontFamily);
+--bodyHeavy: 800 1rem/1.5rem var(--basefontFamily);
+--button: 500 1rem/1rem var(--basefontFamily)
+}
+
+body{
+font-family: var(--basefontFamily);
+}
+
+
+
