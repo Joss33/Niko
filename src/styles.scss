@@ -4,6 +4,7 @@
 --primary: #111111;
 --gray: #757575;
 --white: #FFFFFF;
+--gray2: #F5F5F5;
 
 
 --basefontFamily: Avenir, Helvetica, sans-serif;
@@ -17,5 +18,6 @@ body{
 font-family: var(--basefontFamily);
 }
 
+@import url('./assets/styles/components/buttons.scss');
 
 
