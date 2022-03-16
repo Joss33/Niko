@@ -1,0 +1,24 @@
+.radio {
+  input {
+    display: none;
+  }
+  label {
+    padding: 0.75rem 0.625rem;
+    border: 1px solid #75757533;
+    border-radius: 0.25rem;
+    line-height: 1.5rem;
+    cursor: pointer;
+    background: white;
+    display: inline-block;
+    min-width: 6.5625rem;
+    text-align: center;
+  }
+  input:checked + label {
+    border: 1px solid var(--primary);
+  }
+  input:disabled + label {
+    background-color: var(--gray2);
+    color: rgba($color: #111111, $alpha: 0.2);
+    cursor: not-allowed;
+  }
+}
