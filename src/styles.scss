@@ -1,23 +1,20 @@
-@import './assets/styles/fonts.scss';
+@import "./assets/styles/fonts.scss";
 
-:root{
---primary: #111111;
---gray: #757575;
---white: #FFFFFF;
---gray2: #F5F5F5;
+:root {
+  --primary: #111111;
+  --gray: #757575;
+  --white: #ffffff;
+  --gray2: #f5f5f5;
 
-
---basefontFamily: Avenir, Helvetica, sans-serif;
---subtitle: 800 1.75rem/2.39rem var(--basefontFamily);
---bodyRoman: 400 1rem/1.5rem var(--basefontFamily);
---bodyHeavy: 800 1rem/1.5rem var(--basefontFamily);
---button: 500 1rem/1rem var(--basefontFamily)
+  --basefontFamily: Avenir, Helvetica, sans-serif;
+  --subtitle: 800 1.75rem/2.39rem var(--basefontFamily);
+  --bodyRoman: 400 1rem/1.5rem var(--basefontFamily);
+  --bodyHeavy: 800 1rem/1.5rem var(--basefontFamily);
+  --button: 500 1rem/1rem var(--basefontFamily);
 }
 
-body{
-font-family: var(--basefontFamily);
+body {
+  font-family: var(--basefontFamily);
 }
 
-@import url('./assets/styles/components/buttons.scss');
-
-
+@import "./assets/styles/components/buttons.scss";

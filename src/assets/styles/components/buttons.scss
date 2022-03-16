@@ -1,37 +1,50 @@
-.button{
-    border: 0;
-    width: 21rem;
-    height: 3rem;
-    top: 1.25rem;
-    left: 1.25rem;
-    border-radius: 4.625rem;
-    cursor: pointer;
-    text-align: center;
-    font: var(--bodyHeavy);
-    text-align: center;
-    
-    
+.button {
+  padding: 0.75rem 1rem;
+  border: 1px solid transparent;
+  border-radius: 4.625rem;
+  cursor: pointer;
+  font: var(--bodyHeavy);
+  background-color: var(--gray2);
+  transition: all 0.3s;
 }
 
+//colors
 
-.button.buttonPrimary{
-    background-color:var(--primary);
-    color: var(--white);
-    
-    
+.button.buttonPrimary {
+  background-color: var(--primary);
+  color: var(--white);
 }
 
-.button.buttonGray{
-    background-color:var(--gray);
-    color: var(--white);
+.button.buttonGray {
+  background-color: var(--gray);
+  color: var(--white);
 }
 
-.button.buttonWhite{
-    background-color:var(--white);
-    color:var(--primary);
+.button.buttonWhite {
+  background-color: var(--white);
+  color: var(--primary);
 }
 
-.button.buttonGray2{
-    background-color:var(--gray2);
-    color:var(--primary);
+.button.buttonGray2 {
+  background-color: var(--gray2);
+  color: var(--primary);
+}
+
+//type
+
+.button.buttonType--outline.buttonWhite {
+  border-color: #75757533;
+}
+
+.button.buttonType--outline.buttonGray2 {
+  border-color: var(--gray);
+}
+
+//state
+.button:active {
+  transform: scale(0.95);
+}
+
+.button.button--block {
+  width: 100%;
 }
